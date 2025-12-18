@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,9 +19,15 @@
                 <a href="contact.php">Contact</a>
             
         </nav>
+        <?php if (!empty($_SESSION['user'])) {?>
+            <div id="logout">
+                <a href="logout.php">Logout </a>
+            </div>
+        <?php } else { ?>
     </div id="login">
     <a href="login.php">Login</a>
     <a href="register.php">Register</a>
     </div>
+    <?php } ?>
 </body>
 </html>
