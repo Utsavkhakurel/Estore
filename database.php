@@ -10,3 +10,4 @@ $db_Pass = '';
  else {
      echo " Connection successful";
  }  
+ ?>

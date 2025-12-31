@@ -1,5 +1,8 @@
-<div id ="footer">
-    <p>&copy; 2024 My Website. All rights reserved.</p>
+<div id="footer">
+    &copy; 2025 estore. All rights reserved.
 </div>
+
+
+
 </body>
 </html>

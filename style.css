@@ -1,61 +1,86 @@
-#header {
-    height: 100px;
-    background-color: #f2f2f2;
-    width: 100px;
-}
-.content {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-
-}
-#logo, nav {
-    display: flex;
-    align-items: center;
-}
-#logo img {
+#header{
     height: 80px;
-    margin-right: 15px;
+    width: 100%;
+    background-color: rgb(101, 101, 184);
 }
-#nav-bar a {
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 5px;
-    padding: 0;
+
+#logo, #navbar, #login_panel {
+    height: 100px;
     display: inline-block;
-    gap: 15px;
+    padding-top: 30px;
 }
-#footer {
-    height: 50px;
-    background-color: #f2f2f2;
-    text-align: center;
-    padding-top: 10px;
+
+#navbar a, #login_panel a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
-#login_page {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    color: #555;
-    margin: 20px;
+
+#logo {
+    width: 100px;
     
 }
-#username, #password {
-    padding: 8px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+
+
+#navbar{
+    width: 700px; 
+    padding-left: 100px;  
+    gap: 30px;
+}
+#navbar a:hover{
+    background-color: rgb(201, 235, 223);
+}
+#login_panel{
+    float: right;
+    padding-right: 30px;
+}
+
+#login_page {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(248, 220, 167);
+    border-radius: 20px;
+    text-align: center;
+
+    
+}
+#login_page input {
+    margin: 10px;
+    height: 25px;
     width: 200px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
 }
-#login_button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
+#login_page button {
+    background-color: rgb(112, 179, 241);   
+    height: 30px;
+    width: 100px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
 }
-#login_button:hover {
-    background-color: #45a049;
+
+
+
+
+
+
+.content {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
 }
-#login {
-    margin-left: 20px;
+
+
+
+
+
+#footer {
+
+    height: 40px;
+    width: 100%;
+    background-color: rgb(101, 101, 184);
 }
