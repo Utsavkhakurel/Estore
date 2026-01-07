@@ -13,6 +13,7 @@
         <div>
             <label>phone</label>
             <input type="number" id="phone" name="phone">
+            
         </div>
         <div>
             <label for="username">Email:</label>
